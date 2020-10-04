@@ -18,6 +18,9 @@ class ScoutbookLeadershipPosition {
     }
 
     set startDate(value) {
+        if (value === undefined) {
+            value = '';
+        }
         this._startDate = value;
     }
 
@@ -26,6 +29,9 @@ class ScoutbookLeadershipPosition {
     }
 
     set endDate(value) {
+        if (value === undefined) {
+            value = '';
+        }
         this._endDate = value;
     }
 
