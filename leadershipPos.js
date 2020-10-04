@@ -1,8 +1,8 @@
 class ScoutbookLeadershipPosition {
     constructor(position,startDate,endDate) {
         this._position = position;
-        this._startDate = startDate;
-        this._endDate = endDate;
+        this.startDate = startDate;
+        this.endDate = endDate;
     }
 
     get position() {
