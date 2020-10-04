@@ -1,4 +1,4 @@
-const ScoutbookLeadershipPosition = require('./ScoutbookLeadershipPosition');
+const ScoutbookLeadershipPosition = require('./leadershipPos');
 
 class Leadership {
     constructor() {
